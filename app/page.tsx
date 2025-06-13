@@ -120,7 +120,7 @@ export default function Home() {
                 <Phone className="text-green-500 mt-1" size={18} />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <a href="tel:+6281234113911" className="text-orange-500 hover:underline">
+                  <a href="tel:+62" className="text-orange-500 hover:underline">
                     +62
                   </a>
                 </div>

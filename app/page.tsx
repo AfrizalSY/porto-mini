@@ -121,7 +121,7 @@ export default function Home() {
                 <div>
                   <p className="font-medium">Phone</p>
                   <a href="tel:+6281234113911" className="text-orange-500 hover:underline">
-                    +62 81234113911
+                    +62
                   </a>
                 </div>
               </div>

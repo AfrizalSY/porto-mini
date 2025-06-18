@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 245, 242, 234;
-  --background-end-rgb: 245, 242, 234;
-}
-
-.dark {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 17, 24, 39;
   --background-end-rgb: 17, 24, 39;
+}
+
+.light {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 245, 242, 234;
+  --background-end-rgb: 245, 242, 234;
 }
 
 body {
@@ -52,6 +52,24 @@ body {
   display: inline-block;
 }
 
+/* Scrollbar styling for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
 /* Mobile navigation */
 @media (max-width: 768px) {
   header nav {
@@ -67,4 +85,9 @@ body {
   header nav div a {
     margin-bottom: 0.5rem;
   }
+}
+
+/* Smooth transitions */
+* {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
 }

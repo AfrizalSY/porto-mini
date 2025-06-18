@@ -5,7 +5,6 @@ export const metadata = {
   title: "Afrizal Syahruluddin Yusuf - Portfolio",
   description:
     "Portfolio website untuk Afrizal Syahruluddin Yusuf, seorang Informatics Graduate, Videographer, dan Photographer.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

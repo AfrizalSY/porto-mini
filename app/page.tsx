@@ -108,8 +108,8 @@ export default function Home() {
                 <Phone className="text-green-400 mt-1 flex-shrink-0" size={20} />
                 <div>
                   <p className="font-semibold text-white mb-1">Phone</p>
-                  <a href="tel:+6281234113911" className="text-orange-400 hover:text-orange-300 transition-colors">
-                    +62 81234113911
+                  <a href="tel:+62" className="text-orange-400 hover:text-orange-300 transition-colors">
+                    +62 
                   </a>
                 </div>
               </div>
@@ -175,8 +175,7 @@ export default function Home() {
             </p>
             <p className="text-gray-300 leading-relaxed text-lg">
               With a detail-oriented work approach and proven problem-solving skills, I am accustomed to working under
-              pressure to meet set targets and deadlines. I am eager to contribute to ensuring that the development of
-              mobile broadband infrastructure runs according to planned standards and schedules.
+              pressure to meet set targets and deadlines.
             </p>
           </div>
         </section>
